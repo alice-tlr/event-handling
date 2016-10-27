@@ -52,10 +52,10 @@ function four () {
   var four = document.getElementById('four')
 
   // Next, we add an event listener to it:
-  four.addEventListener('mouseenter', makeRed)
+  four.addEventListener('click', makeRed)
 
   // Finally, we add one to make the colour white again
-  four.addEventListener('mouseleave', makeWhite)
+  //four.addEventListener('click', makeWhite) - commented this out to achieve the mouse click event to red.
 }
 // Changes the background color of event's target
 function makeBlue (evt) {
